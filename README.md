@@ -1,5 +1,5 @@
 # GCN-for-Node-Classification
-
+The code can be run directly on Colab
 ## Goal
 
 Leverage GCN for node classification tasks on datasets Cora, Citeseer and PubMed.
@@ -65,10 +65,6 @@ The PubMed dataset includes 19,717 scientific publications on diabetes from the 
 	- Diabetes Mellitus Type 2 
 
 The citation network consists of 44338 links. Each publication in the dataset is described by a TF/IDF-weighted word vector from a dictionary of 500 unique words. TF-IDF (term frequency–inverse document frequency) is a commonly used weighting technique for information retrieval and data mining. TF is Term Frequency, and IDF is Inverse Document Frequency. TF-IDF is a statistical method for evaluating the importance of a word to a document set or a document in a corpus. The importance of a word increases proportionally to the number of times it appears in the document, but decreases inversely proportional to the frequency it appears in the corpus.
-
-## GCN Model Framework
-
-![Image text](https://github.com/Redamancy-CX330/GCN_for_Node_Classification_Task/blob/main/GCN%20Framework.png)
 
 
 ## Result
